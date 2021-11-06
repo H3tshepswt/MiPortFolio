@@ -1,0 +1,416 @@
+body{
+    background-color:#0b656b;
+    
+}
+
+footer{
+    margin-top: 5%;
+}
+input {
+    padding: 4px;
+    font-size: 20px;
+    border-width: 3px;
+    border-color: #ffb500;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 9px;
+    box-shadow: 0px 0px 9px rgba(255,181,0,.57);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+input:focus {
+    outline:none;
+}
+
+textarea{
+padding: 4px;
+font-size: 20px;
+border-width: 5px;
+border-color: #ffb500;
+background-color: #FFFFFF;
+color: #000000;
+border-style: solid;
+border-radius: 9px;
+box-shadow: 0px 0px 9px rgba(255,181,0,.57);
+text-shadow: 0px 0px 0px rgba(66,66,66,.0);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+textarea:focus {
+outline:none;
+}
+
+.myButton {
+box-shadow: 0px 0px 0px 2px #ffffff;
+background:linear-gradient(to bottom, #ffb700 5%, #ffb700 100%);
+background-color:#ffb700;
+border-radius:7px;
+border:2px solid #ffb700;
+display:inline-block;
+cursor:pointer;
+color:#0b656b;
+font-family:Arial;
+font-size:19px;
+padding:12px 37px;
+text-decoration:none;
+text-shadow:0px 1px 0px #0b656b;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.myButton:hover {
+background:linear-gradient(to bottom, #ffb700 5%, #ffb700 100%);
+background-color:#ffb700;
+}
+.myButton:active {
+position:relative;
+top:1px;
+}
+
+h3{
+    color:#ffb500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size: 22px;
+}
+
+p{
+    color:#ffb500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size: 18px;
+}
+
+@media (min-width: 1025px)
+{
+    .centrar{
+        margin-left: 8em;
+    }
+
+    .centro{
+        margin-left:8%;
+    }
+
+    .fa-bars{
+        font-size: 3em;
+        color:#ffb500;
+    }
+    .iconoMenu{
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+    
+    .izquierda{
+    
+        position: absolute;
+        margin-top: 40em;
+        margin-left: 2em;
+        
+    }
+    
+    .casa{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 10px;
+    
+    }
+    
+    .libro{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 20px;
+    
+    }
+    .estrella{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 25px;
+    }
+    .email{
+    
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 30px;
+    }
+    
+    ul{
+        visibility: hidden;
+    }
+
+    label{
+        font-size: 20px;
+        color:#ffb500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 47%;
+
+    }
+
+    .form-control{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .myButton{
+        margin-left: 45%;
+     }
+
+.fb{
+    font-size: 3em;
+    color:#ffb500;
+    margin-left: 22%;
+}
+.inst{
+    font-size: 3em;
+    color:#ffb500;
+    margin-left: 10%;
+}
+.go{
+    font-size: 3em;
+    color:#ffb500;
+    margin-left: 10%;
+}
+.tw{
+    font-size: 3em;
+    color:#ffb500;
+    margin-left: 10%;
+}
+.pint{
+    font-size: 3em;
+    color:#ffb500;
+    margin-left: 10%;
+}
+#ct{
+    margin-top: 22px;
+}
+
+}
+
+
+@media (min-width: 425px) and (max-width:1024px)
+{
+    .centro{
+       margin-left:16%;
+       
+    }
+    
+    .tamaño1{
+        width: 100%;
+        max-width: 500px;
+    }
+    .tamaño2{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    img{
+        width: 100%;
+        height: 300px;
+        box-shadow: 2px 2px 12px #0f0e0e;
+    }
+
+    .fa-bars{
+        font-size: 3em;
+        color:#ffb500;
+    }
+    .iconoMenu{
+        margin-left: 3em;
+        margin-top: 2em;  
+        
+    }
+   
+    .izquierda{
+    
+        position: absolute;
+        margin-top: 40em;
+        margin-left: 3em;
+        
+    }
+    
+    .casa{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 10px;
+    
+    }
+    
+    .libro{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 20px;
+    
+    }
+    .estrella{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 25px;
+    }
+    .email{
+    
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 30px;
+    }
+    
+    ul{
+        visibility: hidden;
+    }
+
+    label{
+        font-size: 20px;
+        color:#ffb500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 47%;
+
+    }
+
+    .form-control{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .myButton{
+        margin-left: 40%;
+     }
+
+.inst{
+    
+    margin-left: 5%;
+}
+.go{
+    
+    margin-left: 5%;
+}
+.tw{
+    
+    margin-left: 5%;
+}
+.pint{
+    
+    margin-left: 5%;
+}
+
+
+#ct{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color:#ffb500;
+}
+
+
+}
+
+@media (max-width: 424px)
+{
+    .centro{
+        margin-left: 1px;
+     }
+
+     .tamaño1{
+         width: 97%;
+         max-width: 450px;
+     }
+     .tamaño2{
+         width: 97%;
+         max-width: 450px;
+     }
+ 
+     img{
+         width: 100%;
+         height: 159px;
+         box-shadow: 2px 2px 12px #0f0e0e;
+     }
+
+    .fa-bars{
+        font-size: 30px;
+        color:#ffb500;
+    }
+
+    .iconoMenu{
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+    
+    .izquierda{
+    
+        position: absolute;
+        margin-top: 30em;
+        margin-left: 7px;
+      
+    }
+
+    .casa{
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 5px;
+    
+    }
+    
+    .libro{
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 10px;
+        margin-left: 4px;
+       
+    }
+    .estrella{
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 15px;
+    }
+    .email{
+    
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 20px;
+        margin-left: 4px;
+    }
+
+    ul{
+        visibility: hidden;
+    }
+
+
+    label{
+        font-size: 20px;
+        color:#ffb500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 47%;
+
+    }
+  
+    .form-control{
+        width: 75%;
+        margin-left: 15%;
+     }
+     .myButton{
+        margin-left: 35%;
+     }
+
+.inst{
+    
+    margin-left: 5%;
+}
+.go{
+    
+    margin-left: 5%;
+}
+.tw{
+    
+    margin-left: 5%;
+}
+.pint{
+    
+    margin-left: 5%;
+}
+#ct{
+    font-size: 3em;
+    color:#ffb500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}

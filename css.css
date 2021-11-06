@@ -1,0 +1,218 @@
+
+@media (max-width: 424px)
+{
+    body{
+        background-image: url("./Img/Fondo/taxi-movil.jpg");
+        background-repeat: no-repeat;
+        background-position: right 40%;
+    }
+    h1{
+        color:#ffb500;
+        font-family:"DancingScript";
+        margin-right: 2px; 
+        font-size: 25px;
+        text-shadow:2px 2px 3px  #0b656b;
+        
+    }
+    .titulo{
+        width: 90px;
+        height: 100px;
+        float: right;
+    }
+
+    .fa-bars{
+        font-size: 30px;
+        color:#ffb500;
+    }
+    .iconoMenu{
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+    
+    .izquierda{
+    
+        position: absolute;
+        margin-top: 30em;
+        margin-left: 7px;
+      
+    }
+
+    .casa{
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 5px;
+    
+    }
+    
+    .libro{
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 10px;
+        margin-left: 4px;
+       
+    }
+    .estrella{
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 15px;
+    }
+    .email{
+    
+        font-size: 30px;
+        color:#ffb500;
+        margin-top: 20px;
+        margin-left: 4px;
+    }
+
+    ul{
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 425px) and (max-width:1024px)
+{
+    body{
+        background-image: url("./Img/Fondo/taxi-gdc405b1cc_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        
+        
+    }
+    h1{
+        color:#ffb500;
+        font-family:"DancingScript";
+        font-size: 50px;
+        text-shadow:2px 2px 3px  #0b656b;
+        margin-right: 1em;
+        
+    }
+    .titulo{
+        width: 200px;
+        height: 100px;
+        float: right;
+    }
+
+    .fa-bars{
+        font-size: 3em;
+        color:#ffb500;
+    }
+    .iconoMenu{
+        margin-left: 5em;
+        margin-top: 2em;
+        
+        
+    }
+   
+    .izquierda{
+    
+        position: absolute;
+        margin-top: 40em;
+        margin-left: 5em;
+        
+    }
+    
+    .casa{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 10px;
+    
+    }
+    
+    .libro{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 20px;
+    
+    }
+    .estrella{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 25px;
+    }
+    .email{
+    
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 30px;
+    }
+    
+    ul{
+        visibility: hidden;
+    }
+   
+}
+
+
+@media (min-width: 1025px)
+{
+    body{
+        background-image: url("./Img/Fondo/taxi-gdc405b1cc_1920.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left;
+        
+    }
+    h1{
+        color:#ffb500;
+        font-family:"DancingScript";
+        float:right;
+        font-size: 60px;
+        text-shadow:2px 2px 3px  #0b656b;
+        margin-right: 1em;
+        text-align: justify;
+    }
+
+
+    .fa-bars{
+        font-size: 3em;
+        color:#ffb500;
+    }
+    .iconoMenu{
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+    
+    .izquierda{
+    
+        position: absolute;
+        margin-top: 40em;
+        margin-left: 2em;
+        
+    }
+    
+    .casa{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 10px;
+    
+    }
+    
+    .libro{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 20px;
+    
+    }
+    .estrella{
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 25px;
+    }
+    .email{
+    
+        font-size: 3em;
+        color:#ffb500;
+        margin-top: 30px;
+    }
+    
+    ul{
+        visibility: hidden;
+    }
+    
+}
+
+@font-face{
+    font-family: "DancingScript";
+    src: url("./Fuente/static/DancingScript-Bold.ttf");
+}
+
